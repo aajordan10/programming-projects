@@ -1,6 +1,7 @@
-This set of c programs traverses and reads a linux filesystem. Hasn't yet been tested on Windows but to begin
+This set of c programs traverses and reads a filesystem. 
 
-1)Run overview_program. The output of the high level directories will be saved to a file named overview.txt
+1) Run gcc -o overview_program main.c initial.c contents.c
+1)Run ./overview_program. The output of the high level directories will be saved to a file named overview.txt
 2)Using the information gathered from overview.txt, you could run the "specific" program which will take in user input to further traverse a specific subdirectory and print out its contents.
 
 For computational efficiency, using specific directories is less taxing than trying to go through directories you might not need or want to traverse.

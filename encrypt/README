@@ -1,0 +1,22 @@
+Sample file encryption rw concept
+
+
+To Run:
+
+Dependencies:
+sudo apt install libssl-dev
+gcc
+
+1)gcc encrypt.c -o encrypt -lssl -lcrypto
+2)./encrypt
+Encrypts all files found in sample directory, can be changed
+Saves encryption key to a file named key.txt
+
+To Un Encrypt
+3)gcc unencrypt.c -o unencrypt -lssl -lcrypto
+4)./unencrypt
+
+
+Next steps:
+Containerize to run with local dependencies, not system dependant.
+Make it so that encryption can traverse directories

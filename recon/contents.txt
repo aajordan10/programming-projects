@@ -1,0 +1,8 @@
+contents
+intial.c
+contents.c
+initial
+current.txt
+contents.txt
+..
+.

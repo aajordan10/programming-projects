@@ -1,0 +1,13 @@
+What is bitop?
+
+Bitop is a program written in C that takes the files placed in the original directory and performs a binary bit flip on them. This could be useful for simple encryption or obfuscation if layered with other techniques so long as you can run this program. I've tested this with text files but next tests would include other file types and larger files. Of course, larger files might take longer, but achieve the same result theoretically.
+
+How to run:
+
+First, compile the c program using gcc command:
+gcc -o andop and_bits.c 
+
+To run it, use the command:
+./andop
+
+Once running, you must enter'flip' to flip bits, 'reverse' to reverse flipped bits, or 'exit' to end the program
